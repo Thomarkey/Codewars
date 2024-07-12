@@ -1,6 +1,7 @@
 package org.example.kata6kyu;
 
 public class EqualSidesOfAnArray {
+
     /**
      * ------------------------------------------------------------
      * |                      DESCRIPTION                         |
