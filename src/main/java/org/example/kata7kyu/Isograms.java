@@ -1,6 +1,8 @@
 package org.example.kata7kyu;
 
 
+import org.apache.commons.lang3.ArrayUtils;
+
 public class Isograms {
 
     /**
@@ -18,8 +20,8 @@ public class Isograms {
      * |                       EXAMPLES                            |
      * ------------------------------------------------------------
      * |    "Dermatoglyphics" --> true
-     *      "aba" --> false
-     *      "moOse" --> false (ignore letter case)
+     * "aba" --> false
+     * "moOse" --> false (ignore letter case)
      */
 
     public static void main(String[] args) {
