@@ -3,7 +3,7 @@ package org.example.kata6kyu;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CountDuplicates {
+public class CountingDuplicates {
     /**
      * ------------------------------------------------------------
      * |                      DESCRIPTION                         |
