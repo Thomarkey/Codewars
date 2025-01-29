@@ -43,14 +43,14 @@ public class MakeDuplicatesUniqueWithRange {
     public static String updateIfNeeded(Set<String> uniqueList, String input) {
         char[] prefixes = {'A', 'B', 'C'};
 
-        int prefixIndex = -1;
+        int prefixIndex = 0;
         while (!uniqueList.add(input)) {
-            prefixIndex++;
             if (prefixIndex >= prefixes.length) {
                 System.out.println("Unable to make unique string for:" + input);
                 return null;
             }
             input = prefixes[prefixIndex] + input.substring(1);
+            prefixIndex++;
         }
         return input;
     }
