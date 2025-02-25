@@ -6,13 +6,12 @@ import java.util.List;
 public class recursive {
 
     public static void main(String[] args) {
-        System.out.println(returnNthFibonacciNumber(5)); //3
-        System.out.println(returnNthFibonacciNumberRecursive(5)); //5 --> check welke vd 2 just is?
+        System.out.println(returnNthFibonacciNumber(5)); //5
+        System.out.println(returnNthFibonacciNumberRecursive(5)); //5
         countDown(10);
         countDownRecursive(10);
-        System.out.println(sumDown(3));
+        System.out.println(sumDown(3)); // 3+2+1=6
     }
-
 
 
     /**
@@ -64,11 +63,11 @@ public class recursive {
         }
     }
 
+
     public static int sumDown(int number) {
         if (number == 0) return 0;
         return number + sumDown(number - 1);
     }
-
 
 
 }
