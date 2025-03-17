@@ -3,7 +3,7 @@ package org.example.nonkata;
 import java.util.ArrayList;
 import java.util.List;
 
-public class recursive {
+public class Recursive {
 
     public static void main(String[] args) {
         System.out.println(returnNthFibonacciNumber(5)); //5
