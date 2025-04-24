@@ -70,7 +70,6 @@ public class PickPeaks {
                 }
             }
         }
-
         result.put("pos", pos);
         result.put("peaks", peaks);
         return result;
